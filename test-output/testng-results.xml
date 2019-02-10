@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="36658" started-at="2019-02-10T02:39:30Z" finished-at="2019-02-10T02:40:06Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="36658" started-at="2019-02-10T02:39:30Z" finished-at="2019-02-10T02:40:06Z">
+      <class name="org.cucumber.tests.OpenMRSTests">
+        <test-method status="PASS" signature="setUP()[pri:0, instance:org.cucumber.tests.OpenMRSTests@4678c730]" name="setUP" is-config="true" duration-ms="9017" started-at="2019-02-10T08:09:30Z" finished-at="2019-02-10T08:09:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method status="PASS" signature="login(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:org.cucumber.tests.OpenMRSTests@4678c730]" name="login" duration-ms="27222" started-at="2019-02-10T08:09:39Z" description="login" data-provider="features" finished-at="2019-02-10T08:10:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[feature name]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.cucumber.tests.OpenMRSTests@4678c730]" name="tearDown" is-config="true" duration-ms="164" started-at="2019-02-10T08:10:06Z" finished-at="2019-02-10T08:10:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.cucumber.tests.OpenMRSTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
