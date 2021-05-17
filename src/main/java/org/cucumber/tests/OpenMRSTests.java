@@ -61,6 +61,7 @@ public class OpenMRSTests
 	public void tearDown()
 	{
 		testRunner.finish();
+		System.out.println("Hcicici");
 	}
 	
 	
